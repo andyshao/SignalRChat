@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Owin;
+﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(SignalRChat.Web.Startup))]
-
+[assembly: OwinStartupAttribute(typeof(SignalRChat.Web.Startup))]
 namespace SignalRChat.Web
 {
     public partial class Startup
